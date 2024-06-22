@@ -10,9 +10,7 @@ import { isEmpty } from 'lodash'
 import DOMPurify from 'dompurify'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/prism'
-
 import styles from './Chat.module.css'
-import Contoso from '../../assets/Contoso.svg'
 import Ophelia from '../../assets/Ophelia-without-bg.png'
 import { XSSAllowTags } from '../../constants/sanatizeAllowables'
 
