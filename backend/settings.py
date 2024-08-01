@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Ophelia Chat"
+    title: str = "Eva Chat"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Ask Ophelia"
-    chat_description: str = "I am your MTN virtual assistant. How can I help you ?"
+    chat_title: str = "Ask Eva"
+    chat_description: str = "I am your MTN HR virtual assistant. How can I help you ?"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
 
